@@ -1,4 +1,4 @@
-# [Your name here]'s-Lab-Hub
+# Elliott Kalt's-Lab-Hub
 for [Interactive Device Design](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/)
 
 Please place links here to the README.md's for each of your labs here:
@@ -16,5 +16,3 @@ Lab 5. Observant Systems
 Lab 6. Little Interactions Everywhere
 
 Final Project
-
-
