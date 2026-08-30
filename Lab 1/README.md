@@ -4,7 +4,11 @@ _This project is to be done in teams of 2._
 
 **NAME OF BOTH COLLABORATOR(S) HERE**
 
+- Elliott Kalt
+- Alexa Yang
+
 **THE MASTERWORK YOU DREW FROM THE HAT:**
+The Arc Reactor
 
 ---
 
@@ -16,12 +20,12 @@ interactive masterworks of our time.
 This week, every team will draw a different masterwork from a hat. Some are
 conceptual pieces, some are historical works, some are modern-day products —
 but they all share one thing: **their central mode of interaction is carried by
-light.** Think of Tinker Bell in the original stage production of *Peter Pan*,
+light.** Think of Tinker Bell in the original stage production of _Peter Pan_,
 represented by nothing more than a darting circle of light from an off-stage
 mirror. There was no actor playing Tinker Bell; she existed entirely through the
 way the other characters interacted with that light.
 
-Your job is to recreate the *interaction* of the piece you drew — not to build a
+Your job is to recreate the _interaction_ of the piece you drew — not to build a
 museum-grade replica, but to stage the moment that makes it what it is. Someone
 who knows your piece should watch your recreation and recognize it instantly.
 Someone who has never heard of it should walk away understanding what it is
@@ -29,11 +33,11 @@ famous for.
 
 You will do this using the interaction staging techniques we will use all semester: a
 storyboard, some acting, a phone standing in as a controllable light (the
-*Tinkerbelle* tool), a hidden human "wizard" driving it, a costume, and a
+_Tinkerbelle_ tool), a hidden human "wizard" driving it, a costume, and a
 recorded video.
 
-*Make sure you read all the instructions and understand the whole activity
-before starting!*
+_Make sure you read all the instructions and understand the whole activity
+before starting!_
 
 ## Prep
 
@@ -67,8 +71,8 @@ shared.
 1. A short **research write-up** of your masterwork (what it is, when, who made
    it, and — most importantly — what the interaction is)
 2. **3 iterated storyboards** of the interaction in the masterwork
-5. A **video sketch** of your prototyped interaction
-6. Any **reflections** on the process
+3. A **video sketch** of your prototyped interaction
+4. Any **reflections** on the process
 
 Labs are due on Mondays. Make sure this page is linked from your main class hub
 page.
@@ -80,17 +84,22 @@ page.
 ## Part 0. Know Your Master
 
 Before you prototype anything, get intimately acquainted with the piece you
-drew. Do real research. You are looking less for trivia than for the *shape of
-the interaction*:
+drew. Do real research. You are looking less for trivia than for the _shape of
+the interaction_:
 
 - What inputs are available to the user? What responses does the work give?
 - Who is present, and how does the piece color the relationships between them?
 - What is the piece famous for? What are its strengths and its weaknesses?
 
-  Sometimes the details of how the interaction worked are lost in history. Try filling it in with your imagination!
+    Sometimes the details of how the interaction worked are lost in history. Try filling it in with your imagination!
 
 **Describe your masterwork here, in your own words. What is the core interaction
 someone would recognize it by?**
+
+The arc reactor is an artificial heart for Tony Stark. Without it, he dies.
+The reactor serves multiple purposes: it primarily acts as an electromagnet that keeps shrapnel out of his heart;
+arguably more important, it also powers the eponymous Iron Man suit.  The main recognizable feature of the arc reactor is
+its connection to its owner: it is grafted directly into Tony Stark's chest.
 
 ## Part A. Plan
 
@@ -105,12 +114,33 @@ For your masterwork, reconstruct the interaction as a scene:
 
 **Describe your setting, players, activity, and goals here.**
 
+In the movie, the original version of the reactor was poisoning Tony, driving him to replace it.
+[He upgrades the arc reactor with the help of a friend](https://www.youtube.com/watch?v=jnQTeKiXSn0).
+This entails disconnecting Tony's "heart" for a short period of time, which could understandably lead to his death.
+
+We aim to recreate this scene.
+
+The scene will take place in Tony's lab.
+
+There are two characters in the scene: Tony and Pepper, who is replacing the reactor.
+Tony will be an inert prop with a cavity in which we can place a phone; Pepper will be played by Alexa.
+
+There is a phone in Prop-Tony.  The phone is attached to a cable; the other end of the cable is free.
+The phone is emitting a dim, flickering, cool, white light.
+
+Pepper begins to extract the phone from Prop-Tony.  The light remains unchanged until Pepper yanks out the phone and cable alltogether.
+At this point, the light flickers before flashing red and finally turning off.
+
+Another phone is laying, unlit and similarly attached to a cable, next to Pepper.
+Pepper inserts the new phone into Prop-Tony, at which point it flickers on and maintains the same strong, cool light as the original one.
+
 Now **sketch a 3 storyboards** of the interaction you are recreating. (The number may depend on the thing you drew, but stretch your thinking!) They
 don't need to be beautiful, but they must capture and communicate not only the behavior of the light, but how it affects
 and the people around it. If you're new to storyboarding, read
 [this explanation](https://www.nngroup.com/articles/storyboards-visualize-ideas/).
 
 **Include pictures of your storyboards here.**
+![](storyboard.jpeg)
 
 Use the storyboards to decide what interaction to prototype.
 
@@ -123,23 +153,25 @@ is doing what you've scripted — a person can wave a flashlight, or you can nar
 it aloud.
 
 **Are there things that seemed better on paper than when acted out?**
+It was not clear when the light should start flickering, so we added the cable + yank interaction.
 
 **Did new ideas about the piece surface once you were on your feet?**
+See above.
 
 **Are there key moments in the interaction where things could go in a different direction?**
-Iterate your storyboards to capture key non-sequential aspects of the interaction. 
+Iterate your storyboards to capture key non-sequential aspects of the interaction.
 
 ## Part C. Prototype the Light (light first!)
 
 Use your smartphone as the light of your device. Open the browser on your phone
 to act as the "light," and use the remote control interface on your computer to
-change that light. Code and setup instructions for the *Tinkerbelle* tool are
+change that light. Code and setup instructions for the _Tinkerbelle_ tool are
 [here](https://github.com/IRL-CT/tinkerbelle) (we invented this tool for
 this lab). If you hit technical trouble, a manually or remotely controlled light
 switch, dimmer, or lamp is a fine substitute.
 
 **Get the light interaction working before anything else.** Your grade this week
-rides on the *light* being recognizable — the color, the rhythm, the timing, the
+rides on the _light_ being recognizable — the color, the rhythm, the timing, the
 way it answers a person. Only once your light interaction genuinely reads as your
 masterwork should you consider layering in a second modality (sound, vibration,
 motion). If in doubt, keep polishing the light. The other modalities are next
@@ -153,6 +185,7 @@ building any real electronics. (Zoom works well for recording; you can pin the
 video feed of whichever scene you want to capture.)
 
 **Include your first attempts at recording the wizarded set-up here.**
+[Video here](https://drive.google.com/file/d/1YVTr7Iuz2hOweY5u5pSjv9PcBjEJ5Ruz/view?usp=sharing)
 
 ## Part E. (optional) Costume the Device
 
@@ -175,16 +208,19 @@ the top of this lab: a viewer who knows the piece should recognize it; a viewer
 who doesn't should come away understanding what it's famous for. How might you illustrate the non-sequential aspects of the interaction in the sketch?
 
 **Include your video here.**
+[Video here](https://drive.google.com/file/d/1DpJ7oor_v04UJpV2iZzEB1wUOUqFWMeS/view?usp=drive_link)
 
 **Please indicate who you collaborated with on this lab.** Be generous in
 acknowledging their contributions, and credit any other influences (YouTube,
 Github, Twitter, a friend who lent you a lamp) that informed your recreation.
 
+Actress: Emilie Kalt
+
 ---
 
 # Part 2 — ReMastering the light
 
-*This describes the second week's work for this lab activity.*
+_This describes the second week's work for this lab activity._
 
 ## Prep (before the next lab)
 
@@ -219,8 +255,6 @@ prototype are great too.**
 
 ---
 
-
-
-*Assignment lineage: this lab merges "Staging Interaction" (Interactive Lab Hub)
+_Assignment lineage: this lab merges "Staging Interaction" (Interactive Lab Hub)
 with "Recreating the Masters" (Interaction Design Studio, Profs. Scott Minneman &
-Wendy Ju). Massive list of interactive light masterworks generated by Claude.ai.*
+Wendy Ju). Massive list of interactive light masterworks generated by Claude.ai._
