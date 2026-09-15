@@ -199,6 +199,8 @@ We strongly discourage literal digital or analog clock display: Be creative.
 
 
 **Put the names of the people you gave feedback to here. (Even better, add links to their repos here!)**
+Jovian Wang: https://github.com/jovianw/Interactive-Lab-Hub/
+Alexa Yang: https://github.com/alexa482/Interactive-Lab-Hub1/
 
 # Lab 2 Part 2
 
