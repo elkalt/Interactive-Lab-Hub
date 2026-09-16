@@ -210,6 +210,8 @@ Alexa Yang: https://github.com/alexa482/Interactive-Lab-Hub1/
 
 2. Look at and give feedback on the Part E. for at least 3 other people in the class and get 3 people to comment on your Part E!)
 **Put the feedback for your ideas here.**
+Add transitions between minutes.
+Sync simulation steps with real world seconds.
 
 ## Update your Lab Hub
 
@@ -239,7 +241,7 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 Do take advantage of having done the previous iteration to refine and simplify your design.
 
-** Insert any updates ideas, sketches, [Verplank diagrams](https://ccrma.stanford.edu/courses/250a-fall-2004/IDSketchbok.pdf))!, storyboards for your ideas **
+** Insert any updates ideas, sketches, [Verplank diagrams](https://ccrma.stanford.edu/courses/250a-fall-2004/IDSketchbok.pdf)!, storyboards for your ideas **
 
 
 \*\*\***Put a copy of your code in your Lab 2 Github repo.**\*\*\*
