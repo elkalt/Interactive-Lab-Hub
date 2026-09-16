@@ -226,6 +226,7 @@ Start small, pick just one element of your overall idea, just to show you have a
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your barely modified PiClock.**\*\*\*
+[Video Link](https://drive.google.com/file/d/1qPKuzjMC-gb2FSJx54BMblWmlg1VNoBj/view?usp=sharing)
 
 After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
 
@@ -247,7 +248,7 @@ Do take advantage of having done the previous iteration to refine and simplify y
 \*\*\***Put a copy of your code in your Lab 2 Github repo.**\*\*\*
 
 \*\*\***Take a video of your PiClock.**\*\*\*
-
+[Video Link](https://drive.google.com/file/d/1kUpw-y9IZe7MTkWOXIJ4sxnIjQTMk5jX/view?usp=sharing)
 
 As always, make sure you document contributions and ideas from others (and AI) explicitly in your writeup.
 
