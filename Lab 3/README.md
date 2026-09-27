@@ -109,6 +109,8 @@ The demo script also shows `--output-raw`, which streams audio to the speaker as
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
+See [greet_by_name.sh](/speech-scripts/greet_by_name.sh).
+
 \*\***Then answer: Is the same greeting, in these different voices, the same greeting? Describe one concrete way the voice changed what the utterance seemed to mean or who seemed to be speaking.**\*\*
 
 ## B. Speech to Text
@@ -131,7 +133,12 @@ Available sizes, smallest first: `tiny.en`, `base.en`, `small.en`, `medium.en`. 
 
 \*\***Record a few seconds of your own speech (`arecord -d 5 -f cd -c 1 -r 16000 test.wav`) and transcribe it with at least two model sizes. Report the real-time factor for each. At what point does the accuracy improvement stop being worth the delay, for a system that has to answer you?**\*\*
 
+- Small: 1.19x
+- Base: 0.39x
+
 \*\***Write your own script that verbally asks for a numerical input (a phone number, zipcode, number of pets) and records the answer the respondent provides.**\*\* Numbers are a good stress test — transcription systems make characteristic errors on digit strings, and you will want to know what they are before you design around them.
+
+See [credit_card_query.py](/speech-scripts/credit_card_query.py).
 
 ## C. Turn-taking: knowing when someone has stopped talking
 
@@ -153,6 +160,8 @@ Speak, pause, and watch it transcribe. Now change the endpointing threshold — 
 
 \*\***Try both extremes, and something in between. Describe what each one feels like to talk to. Note specifically: at 0.2s, what kinds of normal speech get cut off? At 1.5s, what does the delay make the system seem like?**\*\*
 
+At 0.2, I find that I get cut off at small pauses (to think, a comma, a period).  At 1.5s, it feels like the system is taking a long time to respond, and I have to wait for it to finish before I can continue speaking.
+
 There is no correct value. A system that takes drink orders and a system that listens to someone think out loud want very different thresholds, and the right one depends on what your users are doing with their pauses.
 
 ### The complete loop
@@ -169,11 +178,22 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 \*\***Post your storyboard and diagram here.**\*\*
 
+See [here](https://drive.google.com/file/d/1QvCR6FvbiUp91qbMgjr6A88LB7EbbMbC/view?usp=sharing)
+
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses.
 
 \*\***Please describe and document your process.**\*\*
 
 Your script should include the pauses. Where does your device wait, and for how long? You now know from Part C that this is a parameter you have to choose, not something that happens for free.
+
+For an audio flash card deck, the most natural way to plan it out was by writing out some flashcards and timing how long I would talk/pause for each one.
+
+1. "What flashcards do you want to review today?"
+2. Wait for reply (1s cutoff)
+3. "Okay, let's review the flashcards for [topic]."
+4. *Ask question*
+5. Wait for reply (1s cutoff)
+6. Repeat until all flashcards are reviewed.
 
 ## E. Acting out the dialogue
 
@@ -181,6 +201,7 @@ Find a partner, and *without sharing the script with your partner* try out the d
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
+See [here](https://drive.google.com/file/d/1-4bDMJxCWPs6Cz-yAP0m1em2fIHYVzOK/view?usp=sharing)
 
 ---
 
