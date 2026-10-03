@@ -225,6 +225,10 @@ The system should:
 
 *Document how the system works.*
 
+The system is a spoken French vocabulary flashcard tutor running on a Raspberry Pi. The Pi asks what a French word means, listens through its microphone, and uses voice activity detection to decide when the answer is finished. Whisper transcribes the answer locally; the program checks it against the card and Piper speaks feedback. The user can ask for a hint, repeat, skip, or stop. The silence threshold is configurable (default 0.7 seconds).\
+
+No Wizard was used.
+
 *Include videos or screencaptures of both the system and the controller.*
 
 ## Test the system
@@ -234,16 +238,11 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+The spoken prompts and spoken feedback let participants practice without looking at a screen, and the hint, repeat, and skip commands give them ways to recover when they are unsure. A likely weak point is speech recognition: an answer can be marked wrong if the Pi mishears it. The system also waits for a silence interval before responding, so pauses can feel like either interruptions or delay depending on the setting.
 
-### What worked well about the controller and what didn't?
-\*\**your answer here*\*\*
-
-### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-\*\**your answer here*\*\*
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-\*\**your answer here*\*\*
+With participants’ consent, record each prompt, audio response, transcript, system decision, response, and timestamps. This would support analysis of recognition errors, pauses, and turn-taking. Useful additional signals include video or a camera-based view of gaze and gestures, plus touch or button events if participants use physical controls. Keep recordings tied to anonymous participant IDs and avoid collecting identifying information that is not needed.
 
 <details>
   <summary><strong>Submission Cleanup Reminder (Click to Expand)</strong></summary>
